@@ -46,7 +46,7 @@ public class Hangman {
 
     private void initializeStreams() throws IOException{
         try{
-            File inFile = new File("C:\\Users\\user\\Desktop\\Dictionary\\dictionary.txt");
+            File inFile = new File("src\\dictionary.txt");
             fileReader = new FileReader(inFile);
             bufferedReader = new BufferedReader(fileReader);
             String currentLine = bufferedReader.readLine();
